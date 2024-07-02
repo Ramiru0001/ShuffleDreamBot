@@ -1,0 +1,1 @@
+https://github.com/VOICEVOX/voicevox_engine/releases/tag/0.19.1

@@ -1,0 +1,3 @@
+python check.py
+
+pause

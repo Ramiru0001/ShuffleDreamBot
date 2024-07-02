@@ -1,0 +1,16 @@
+{
+  "name": "discord_bot",
+  "version": "1.0.0",
+  "main": "main.py",
+  "scripts": {
+    "start": "python main.py"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "discord.py": "^1.7.3"
+  }
+}

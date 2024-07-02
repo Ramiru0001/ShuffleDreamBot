@@ -1,0 +1,2 @@
+2024-06-30 20:01:13,810 - discord_bot - ERROR - joinコマンドの処理中にエラーが発生しました: Connectable.connect() takes 1 positional argument but 2 were given
+2024-06-30 20:09:49,428 - discord_bot - ERROR - joinコマンドの処理中にエラーが発生しました: PyNaCl library needed in order to use voice
