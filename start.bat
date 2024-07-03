@@ -1,3 +1,3 @@
-python main.py
+python ShuffleDream.py
 
 pause
