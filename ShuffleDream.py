@@ -261,18 +261,15 @@ async def change_speakers(ctx, speaker_id=None):
 @bot.command(name='info')
 async def info(ctx):
     info_message = """
-    **コマンド一覧**
-    `?join <channel_name> <speaker_id>` : 指定したボイスチャネルに参加します。
-        - <channel_name>: 参加するボイスチャネルの名前を指定します
-        - <speaker_id>: 使用するスピーカーのIDを指定します
-    `?leave <channel_name>` : 指定したボイスチャネルから退出します。
-        - <channel_name>: 退出するボイスチャネルの名前を指定します
-    `?change_speaker <speaker_id>` : 読み上げる声を変更します。
-        - <speaker_id>: 使用するスピーカーのIDを指定します
-    `?speakers` : 利用可能なスピーカーの一覧を表示します。
-        - 引数なし
-    `?info` : コマンドの一覧と説明を表示します。
-        - 引数なし
+    ?info:各コマンドの説明画面です
+    ?join <VCの名前> <speaker_id> : 指定したボイスチャネルに参加します。
+    ?leave <VCの名前> : 指定したボイスチャネルから退出します。
+    ?change_speaker <speaker_id> : 読み上げる声を変更します。
+    ?speakers : 利用可能なスピーカーの一覧を表示します。speaker_idはここで確認してください。
+    ?info : コマンドの一覧と説明を表示します。
+    
+    <speaker_id> とは、読み上げる声の番号のこと。?speakersのコマンドで、番号を確認できる。
+    VOICEVOXに登録されている声はほぼ全て使用可能す。
     """
     await ctx.send(info_message)
 
